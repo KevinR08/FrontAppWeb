@@ -66,7 +66,7 @@ const Navbar = () => {
     <nav id="navbar">
       <a href="/" className="logo"><img src="https://firebasestorage.googleapis.com/v0/b/carstore-69599.appspot.com/o/files%2FLogoRuzteze.png?alt=media&token=3ade4486-88a8-40f2-bf69-261746ba9642" alt=""></img></a>
       <ul>
-        <li><a className="nav-link scrollto" href="/">Inicios</a></li>
+        <li><a className="nav-link scrollto" href="/">Inicio</a></li>
         <li className="dropdown">
           <a className="nav-link" href="/search/cars?brand=">
             <span>Buscar por marca</span> <FontAwesomeIcon className="down_chevron" icon={faChevronDown} />
