@@ -34,4 +34,4 @@ jobs:
         env:
           VERCEL_TOKEN: 38KtTfoizDDgXsbgKeqO44tf
           VERCEL_ORG_ID: team_H6lknTBP4ChWtZaLmCMgI0rS
-          VERCEL_PROJECT_ID: prj_lX3U1bxbE7k59bcY8Tqh5Npgg2Bq
+          VERCEL_PROJECT_ID: prj_35zHGQf9TmjeNDDbhczvI06Fh2W3
