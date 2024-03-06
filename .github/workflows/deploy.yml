@@ -25,9 +25,9 @@ jobs:
       - name: Push Docker image to Docker Hub
         run: docker push kevinr08/frontend
 
-      - name: Deploy to Vercels
-        uses: amondnet/vercel-action@v25
-        with:
+      - name: Deploy to Vercel
+        run: npx vercel --prod
+        env:
           vercel-token: 38KtTfoizDDgXsbgKeqO44tf
           vercel-org-id: team_H6lknTBP4ChWtZaLmCMgI0rS
           vercel-project-id: prj_lX3U1bxbE7k59bcY8Tqh5Npgg2Bq
