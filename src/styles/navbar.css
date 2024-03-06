@@ -1,11 +1,12 @@
 #navbar{
-    background: #8b000b;
+    background: #009688;
     transition: all 0.5s;
     z-index: 997;
     height: 150px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
+    padding: 20%;
   }
 
 
@@ -184,7 +185,7 @@
   }
   .search-button {
     border-radius: 0px 4px 0px 4px;
-    background: #062b5b;
+    background: #012A4A;
     color: #ffff;
     margin: 0px 0px 0px -5px;
     z-index: 999;
@@ -192,7 +193,7 @@
   }
   
   .search-button:hover{
-    background: #24579a;
+    background: #468FAF;
   }
   
   .search-input {
@@ -339,13 +340,36 @@
   
   #navbar .logo {
     margin: 0;
-    padding: 10px;
+    /* padding : 10px; */
     line-height: 1;
-    font-weight: 600;
+    /* font-weight: 600; */
+    align-self: center;
+    margin: 10px;
     letter-spacing: 0.8px;
     font-family: "Poppins", sans-serif;
+    padding-left: 55px; 
+    /* size: 200px; */
     
   }
   #navbar .logo img {
     max-height: 80px;
+  }
+
+  #navbar .btn-buy {
+    border: 2px solid #ffffff; /* Borde de 2px sólido blanco */
+    color: #ffffff; /* Color del texto blanco */
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px 20px; /* Ajusta según sea necesario */
+    border-radius: 5px; /* Bordes redondeados, ajusta según sea necesario */
+    cursor: pointer; /* Cursor apuntador */
+    font-size: 16px;
+    margin:15px; /* Tamaño de fuente, ajusta según sea necesario */
+    font-size: 14px;
+    height: 37px;
+  }
+  
+  #navbar .btn-buy:hover {
+    /* Cambia el color del texto y del borde al pasar el mouse */
+    /* color: #012A4A; */
+    border-color: #012A4A;
   }
