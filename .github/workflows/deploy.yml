@@ -26,8 +26,7 @@ jobs:
         run: docker push kevinr08/frontend
 
       - name: Deploy to Vercel
-        run: npx vercel --prod --token=38KtTfoizDDgXsbgKeqO44tf --yes --project=frontend
-
+        run: npx vercel --prod --token=38KtTfoizDDgXsbgKeqO44tf --yes --scope=kevins-projects-6cc1eacd frontend
         env:
           vercel-token: 38KtTfoizDDgXsbgKeqO44tf
           vercel-org-id: team_H6lknTBP4ChWtZaLmCMgI0rS
