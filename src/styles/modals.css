@@ -14,15 +14,16 @@
 .modal-content {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(90deg, #8b000b 0%, #e1400f 100%);
+    background: linear-gradient(90deg, #009688 0%, #BEE1E6 100%);
     width: 450px;
     height: 550px;
     border-radius: 5px;
     color: #fff;
     padding: 40px;
     font-family: "Roboto", sans-serif;
-    margin: -20px;
-    z-index: 1000
+    /* margin: -20px; */
+    z-index: 1000;
+    align-items: center;
 }
 
 .modal-content a, p {
@@ -31,7 +32,7 @@
 
 .modal-content .modal-text-description , 
 .modal-content .modal-footer-text {
-    font-size: 12px;
+    font-size: 18px;
     padding: 5px 0px;
     color: #fff;
 }
@@ -53,8 +54,8 @@
 }
 
 .modal-content input {
-    font-size: 12px;
-    background: #D9D9D9;
+    font-size: 18px;
+    background: #F0EFEB;
     outline: none;
     padding: 10px;
     border-radius: 10px;
@@ -71,11 +72,11 @@
     border: none;
     height: 45px;
     align-items: center;
-    margin: 100px 70px 10px 70px;
+    margin: 20px 0px 10px 0px;
 }
 
 .modal-content .modal-button:hover {
-    background: #f67b46;
+    background: #B7B7A4;
 }
 
 .modal-content .modal-footer-text {
@@ -121,11 +122,11 @@
 }
 
 .modal-content .forgot-password-button:hover {
-    background: #f67b46;
+    background:rgba(14, 59, 101, 1);
 }
 
 .modal-content .reset-password-button {
-    background: #FF5C17;
+    background: rgba(14, 59, 101, 1);
     border-radius: 4px;
     color: #fff;
     font-size: 14px;
@@ -139,7 +140,7 @@
 }
 
 .modal-content .reset-password-button:hover {
-    background: #8b000b;
+    background: rgba(14, 59, 101, 1);
 }
 
 .passwords-container{

@@ -32,7 +32,7 @@ footer ul{
   margin: 0px;
   margin-bottom: 0%;
   border-radius: 10px 10px 0px 0px;
-  background: linear-gradient(90deg,#8b000b 0%,#8b000b 100%);
+  background: linear-gradient(90deg,#009688 0%,#009688 100%);
   padding: 0 0  10px 0;
   
 }
@@ -54,7 +54,7 @@ footer ul{
   position: absolute;
   left:0;
   bottom: -10px;
-  background-color: #f6c007;
+  background-color: #B2DFDB;
   height: 1px;
   box-sizing: border-box;
   width: 100%;
@@ -74,13 +74,12 @@ footer ul{
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;
-  color: #bbbbbb;
   display: block;
   transition: all 0.3s ease;
   width: 100%;
 }
  .footer-col ul li a:hover{
-  color: #FF5C17;
+  color: #212121;
   padding-left: 8px;
 }
  .footer-col .social-links a{

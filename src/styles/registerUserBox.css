@@ -5,8 +5,8 @@
     background: #FFF;
     box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.22);
     margin: 20px 35% 20px 35%;
-    background: linear-gradient(90deg,#8b000b 0%, #e1400f 100%);
-    padding: 30px 0px;
+    background: linear-gradient(90deg,#009688 0%, #BEE1E6 100%);
+    padding: 30px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +89,7 @@
     font-size: 12px;
     background: #D9D9D9;
     outline: none;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 10px;
   }
   
