@@ -29,8 +29,8 @@ jobs:
         run: |
           npm install --global vercel
           vercel pull --yes --environment=production --token=38KtTfoizDDgXsbgKeqO44tf
-          vercel build --prod --token=38KtTfoizDDgXsbgKeqO44tf
-          vercel deploy --prebuilt --prod --token=38KtTfoizDDgXsbgKeqO44tf
+          vercel build --prod --token=38KtTfoizDDgXsbgKeqO44tf --yes
+          vercel deploy --prebuilt --prod --token=38KtTfoizDDgXsbgKeqO44tf --yes
         env:
           VERCEL_TOKEN: 38KtTfoizDDgXsbgKeqO44tf
           VERCEL_ORG_ID: team_H6lknTBP4ChWtZaLmCMgI0rS
