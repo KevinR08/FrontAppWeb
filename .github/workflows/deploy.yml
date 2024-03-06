@@ -25,16 +25,13 @@ jobs:
       - name: Push Docker image to Docker Hub
         run: docker push kevinr08/frontend
 
-deploy_production:
-  stage: deploy
-  only:
-    - main
-  script:
-    - npm install --global vercel
-    - git clone https://github.com/tu-usuario/tu-repositorio.git
-    - cd tu-repositorio
-    - vercel pull --yes --environment=production --token=38KtTfoizDDgXsbgKeqO44tf
-    - vercel build --prod --token=38KtTfoizDDgXsbgKeqO44tf
-    - vercel deploy --prebuilt --prod --token=38KtTfoizDDgXsbgKeqO44tf
-
-
+      - name: Deploy to Vercel
+        run: |
+          npm install --global vercel
+          vercel pull --yes --environment=production --token=38KtTfoizDDgXsbgKeqO44tf
+          vercel build --prod --token=38KtTfoizDDgXsbgKeqO44tf
+          vercel deploy --prebuilt --prod --token=38KtTfoizDDgXsbgKeqO44tf
+        env:
+          VERCEL_TOKEN: 38KtTfoizDDgXsbgKeqO44tf
+          VERCEL_ORG_ID: team_H6lknTBP4ChWtZaLmCMgI0rS
+          VERCEL_PROJECT_ID: prj_lX3U1bxbE7k59bcY8Tqh5Npgg2Bq
