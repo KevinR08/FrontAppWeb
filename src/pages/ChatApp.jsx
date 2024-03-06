@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../components/navbar.jsx';
 import Footer from '../components/footer.jsx';
-import '../styles/chatStyles.css'; // Importa los estilos CSS
+import '../styles/chatStyles.css';
 
 const ChatApp = () => {
   const [userEmail, setUserEmail] = useState('');
 
   useEffect(() => {
-    const socket = new WebSocket('ws://localhost:4000');
+    const socket = new WebSocket('wss://microservicio-chat.vercel.app');
     const form = document.getElementById('form');
     const input = document.getElementById('input');
     const messages = document.getElementById('messages');
@@ -20,7 +20,7 @@ const ChatApp = () => {
       const message = event.data;
       const item = document.createElement('li');
       item.textContent = message;
-      item.classList.add('other-message'); // Establece la clase para mensajes del otro usuario
+      item.classList.add('other-message');
       messages.appendChild(item);
     });
 
