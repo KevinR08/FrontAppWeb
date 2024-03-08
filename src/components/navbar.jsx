@@ -66,11 +66,7 @@ const Navbar = () => {
     <nav id="navbar">
       <a href="/" className="logo"><img src="https://firebasestorage.googleapis.com/v0/b/carstore-69599.appspot.com/o/Black%20n%20White%20Luxury%20%20Rent%20Car%20Logo%20(1).png?alt=media&token=3fb58d6b-8602-416c-889f-10d4b9b1d52e" alt=""></img></a>
       <ul>
-<<<<<<< HEAD
-        <li><a className="nav-link scrollto" href="/">Inicios</a></li>
-=======
         <li><a className="nav-link scrollto" href="/">Inicio</a></li>
->>>>>>> 5759704a008c45dd203fb7c6fa37980c1a27d507
         <li className="dropdown">
           <a className="nav-link" href="/search/cars?brand=">
             <span>Buscar por marca</span> <FontAwesomeIcon className="down_chevron" icon={faChevronDown} />
